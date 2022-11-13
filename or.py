@@ -13,7 +13,7 @@ def main(data,modelName,plotName,eta,epochs):
 
     _ = model_or.total_loss()
 
-    model_or.save(filename="or.model", model_dir="model")
+    model_or.save(filename="or.model", model_dir="model_or")
     save_plot(df_OR,model_or,filename= plotName)
 
 
